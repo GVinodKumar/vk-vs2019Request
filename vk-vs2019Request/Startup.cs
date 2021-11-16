@@ -33,6 +33,7 @@ namespace vk_vs2019Request
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("<h1>ello World!<h1>");
+                    await context.Response.WriteAsync("<h1>welcome an kammarao<h1>");
                 });
             });
         }
